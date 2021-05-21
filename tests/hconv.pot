@@ -1,0 +1,16 @@
+# h-convergence GetPot file
+
+# what meshes to use (specify all paths in between single quotes)
+data='./data/voro27.voro ./data/voro125.voro ./data/voro1000.voro ./data/voro8000.voro'
+
+# the polynomial degree used in the method
+p=3
+
+# the initial time
+t0=0.0
+
+# the time step
+dt=0.0005
+
+# the number of time steps
+nt=2000
